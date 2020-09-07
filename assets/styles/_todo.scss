@@ -1,0 +1,23 @@
+.todo {
+    position: relative;
+    width: 380px;
+    height:40px;
+    background-color: $toDoBg;
+    padding: 10px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    input {
+        position: absolute;
+        left: 50px;
+        height: 35px;
+        width: 310px;
+        background-color: transparent;
+        border: none;
+        font-size: 20px;
+        padding-left:10px;
+    }
+    svg {
+        width: 40px;
+        height: 40px;
+        color: #4162f6;
+    }
+}

@@ -1,0 +1,180 @@
+body {
+  background: #f7f7f7;
+  color: #202020;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 1.3em;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 400px;
+  height: 200px;
+  margin-top: 10px;
+  background-image: url("../img/bg1.jpg");
+  background-size: 100% 200%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 15px 15px 0 0;
+  position: relative;
+}
+
+header .clear {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+header .clear svg {
+  width: 30px;
+  height: 30px;
+  color: #dfdfdf;
+}
+
+header .clear svg:hover {
+  cursor: pointer;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+header #date {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: #f7f7f7;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 400px;
+  height: 400px;
+  max-height: 400px;
+  background: white;
+  overflow: auto;
+}
+
+.content ul {
+  padding: 0;
+  margin: 0;
+}
+
+.content .lineThrough {
+  text-decoration: line-through;
+  color: #b4b4b4;
+  pointer-events: all;
+}
+
+.content .item {
+  width: 380px;
+  height: 45px;
+  min-height: 45px;
+  position: relative;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  list-style: none;
+}
+
+.content .item button {
+  position: absolute;
+  width: 50px;
+  height: 25px;
+  padding: 5px;
+  margin-top: 6px;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.85;
+}
+
+.content .item button:hover {
+  opacity: 1;
+}
+
+.content .item .complete {
+  background: #05ca05;
+  left: 10px;
+  top: 5px;
+}
+
+.content .item .delete {
+  right: 15px;
+  top: 5px;
+  background: #e20d0d;
+}
+
+.content .item p.text {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  left: 80px;
+  top: 10px;
+}
+
+.todo {
+  position: relative;
+  width: 380px;
+  height: 40px;
+  background-color: white;
+  padding: 10px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.todo input {
+  position: absolute;
+  left: 50px;
+  height: 35px;
+  width: 310px;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+.todo svg {
+  width: 40px;
+  height: 40px;
+  color: #4162f6;
+}
+/*# sourceMappingURL=style.css.map */

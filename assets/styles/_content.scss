@@ -1,0 +1,59 @@
+.content {
+    @include flex(center, row, flex-start);
+    width: 400px;
+    height: 400px;
+    max-height: 400px;
+    background: $toDoBg;
+    overflow: auto;
+    ul {
+        padding: 0;
+        margin: 0;
+    }
+    .lineThrough {
+        text-decoration: line-through;
+        color : $lineThrough;
+        pointer-events: all;
+    }
+    .item {
+        width:380px;
+        height: 45px;
+        min-height: 45px;
+        position: relative;
+        border-bottom: 1px solid rgba(0,0,0,0.1);
+        list-style: none;
+        button {
+            position: absolute;
+            width: 50px;
+            height: 25px;
+            padding:5px;
+            margin-top: 6px;
+            border-radius: 7px;
+            border: none;
+            cursor:pointer;
+            opacity: 0.85;
+            &:hover {
+                opacity: 1;
+            }
+        }
+        .complete {
+                background: $primaryBtn;
+                left:10px;
+                top:5px;
+        }
+        .delete {
+                right:15px;
+                top:5px;
+                background: $secondaryBtn;
+        }
+        p.text {
+            position: absolute;
+            padding:0;
+            margin:0;
+            font-size: 20px;
+            left:80px;
+            top:10px;
+            
+        }
+        
+    }
+}

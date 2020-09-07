@@ -1,0 +1,10 @@
+body {
+    background: $bgColor;
+    color: $textColor;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.3em;
+    width: 100%;
+    @include flex(center, column, center);
+}
