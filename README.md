@@ -12,6 +12,7 @@ Just your everyday todo list
 ## To-Do :memo:  
 * Improve UI  
 * Save notes to local storage  
+* Refactor code  
 
 ## License :scroll:  
 [MIT](https://github.com/Hichem-Chabou/ToDo/blob/master/LICENSE)
